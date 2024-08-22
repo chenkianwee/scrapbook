@@ -8,3 +8,5 @@ parts:
   numbered: true
   chapters:
   - file: docs/project_highres
+  - file: docs/open_comp
+  - file: docs/biblio.md
