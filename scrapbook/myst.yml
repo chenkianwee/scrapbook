@@ -1,0 +1,22 @@
+version: 1
+project:
+  title: CKW Scrapbook
+  authors:
+    - name: Kian Wee Chen
+  github: chenkianwee/scrapbook
+  bibliography:
+    - docs/references.bib
+  exports:
+    - format: pdf
+      template: plain_latex_book
+      output: exports/book.pdf
+  toc:
+    - file: intro.md
+    - title: Scrapbook
+      children:
+        - file: docs/project_highres.md
+        - file: docs/biblio.md
+site:
+  options:
+    folders: true
+  template: book-theme
